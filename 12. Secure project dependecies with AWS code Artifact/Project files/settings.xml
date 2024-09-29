@@ -1,0 +1,33 @@
+<settings>
+<servers>
+  <server>
+    <id>devops-3-nextwor-packages</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>devops-3-nextwor-packages</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>devops-3-nextwor-packages</id>
+        <url>https://devops-3-637423622277.d.codeartifact.ap-southeast-2.amazonaws.com/maven/nextwor-packages/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>devops-3-nextwor-packages</id>
+    <name>devops-3-nextwor-packages</name>
+    <url>https://devops-3-637423622277.d.codeartifact.ap-southeast-2.amazonaws.com/maven/nextwor-packages/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+</settings>
