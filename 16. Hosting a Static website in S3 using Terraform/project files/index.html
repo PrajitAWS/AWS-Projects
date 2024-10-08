@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajit Venkatachalam - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            animation: slideDown 1s ease-out;
+        }
+
+        section {
+            padding: 20px;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .fadeIn {
+            opacity: 0;
+            animation: fadeIn 2s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .info {
+            margin-bottom: 30px;
+        }
+
+        .contact {
+            background-color: #e7e7e7;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 150px; /* Adjust size as needed */
+            height: 150px; /* Adjust size as needed */
+            animation: pulse 2s infinite;
+            border: 3px solid #4CAF50; /* Border color */
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Prajit Venkatachalam - System Engineer & AWS Cloud Developer
+    </header>
+
+    <section class="fadeIn">
+        <!-- Profile Image -->
+        <img src="https://terfrms3buckprajit.s3.ap-southeast-2.amazonaws.com/profile.png" alt="Prajit Venkatachalam" class="profile-img">
+
+        <div class="info">
+            <h2>About Me</h2>
+            <p>I am Prajit Venkatachalam, a System Engineer with over 2.5 years of experience in 4G/5G testing and 6 months in AWS cloud development. I'm proficient in AWS technologies like EC2, VPC, S3, IAM, and DevOps CI/CD practices. With a Master's degree in Telecommunication Engineering, I am transitioning to cloud roles.</p>
+        </div>
+
+        <div class="info">
+            <h2>Core Skills</h2>
+            <ul>
+                <li>AWS - EC2, S3, VPC, IAM</li>
+                <li>DevOps CI/CD - Terraform, Jenkins</li>
+                <li>Wireshark, NetScout</li>
+                <li>Python, Bash</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h2>Work Experience</h2>
+            <p><strong>System Engineer - Tata Consultancy Services Ltd.</strong> (Mar 2022 - Present)</p>
+            <ul>
+                <li>4G/5G Testing Execution and Network Performance Monitoring</li>
+                <li>Automation Testing with SIGOS and Wireshark Analysis</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h2>Education</h2>
+            <ul>
+                <li>Master of Telecommunication Engineering, University of Wollongong (2020 - 2021)</li>
+                <li>Bachelor of Electronics & Communication, Sri Krishna College of Technology (2014 - 2018)</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Hosted a static website on Amazon S3</strong> - Developed a static website and configured access control settings.</li>
+                <li><strong>Cloud Security with IAM</strong> - Created policies for EC2 instance access based on environment tags.</li>
+                <li><strong>VPC Traffic Flow & Security</strong> - Built a secure network architecture with Amazon VPC.</li>
+                <li><strong>Packaging with AWS CodeBuild</strong> - Automated the packaging of a Java application into a WAR file.</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:v.prajit98@gmail.com">v.prajit98@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/prajit-venkatachalam/">linkedin.com/in/prajit-venkatachalam</a></p>
+            <p>GitHub: <a href="https://github.com/PrajitAWS">github.com/PrajitAWS</a></p>
+            <p>Phone: 0416 809 609</p>
+            <p>Location: Granville, NSW, 2142, Australia</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Prajit Venkatachalam. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
