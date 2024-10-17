@@ -1,5 +1,7 @@
 # AWS-Projects
 
-Database Projects /n
-Network Projeccts /n
+Database Projects 
+
+Network Projeccts 
+
 Devops Projects
