@@ -1,5 +1,5 @@
 # AWS-Projects
 
-## Database Projects
-### Network Projeccts
-### Devops Projects
+Database Projects
+etwork Projeccts
+Devops Projects
