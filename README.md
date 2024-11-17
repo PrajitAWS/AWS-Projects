@@ -1,7 +1,9 @@
 # AWS-Projects
 
-Database Projects 
+Database Projects - RDS, Dynamo DB, Aurora 
 
-Network Projeccts 
+Network Projeccts- VPC configuration, VPC peering, VPC connectio testing, VPC monitoring
 
-Devops Projects
+Devops Projects - CI/CD pipelines, Kubernetes. Docker & container, Terraform
+
+
